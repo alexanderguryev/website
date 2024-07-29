@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+.photo {
+    margin-top: 20px;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
