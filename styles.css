@@ -1,82 +1,35 @@
-/* Import the custom font */
-@font-face {
-    font-family: 'Lucidity Psych';
-    src: url('assets/FontsFree-Net-lucidity-psych.ttf') format('truetype');
-}
-
-body {
-    font-family: 'Lucidity Psych', Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-
-header {
-    padding: 20px 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-}
-
-h1 {
-    margin: 10px 0;
-    font-size: 2em;
-    font-family: 'Lucidity Psych', cursive, sans-serif;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-main {
-    padding: 20px 0;
-}
-
-.audio-player, .live, .photos {
-    margin: 20px 0;
-}
-
-audio {
-    width: 100%;
-    max-width: 600px;
-}
-
-.live-player {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.live-player img {
-    width: 50px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.volume-control {
-    display: flex;
-    align-items: center;
-}
-
-.volume-control span {
-    margin-right: 10px;
-}
-
-input[type="range"] {
-    width: 100px;
-}
-
-.photos img {
-    width: 80%;
-    height: auto;
-    margin: 10px 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasha Guryev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/hands.png" alt="Logo" class="logo">
+            <h1>Sasha Guryev</h1>
+            <nav>
+                <a href="#">contact</a>
+                <a href="#">connect</a>
+                <a href="#">booking</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="post">
+                <h2>Work</h2>
+                <p>Jul 28, 2024 15:59</p>
+                <div class="content">
+                    <img src="assets/hands.png" alt="Listening Room">
+                    <p>SFMOMA: HiFi Pursuit Listening Room Dream No. 2</p>
+                    <p>2x 2hr sets & photodiary</p>
+                    <p>photo by Ginger Fierstein</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
