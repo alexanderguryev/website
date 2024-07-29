@@ -1,42 +1,82 @@
+/* Import the custom font */
+@font-face {
+    font-family: 'Lucidity Psych';
+    src: url('assets/FontsFree-Net-lucidity-psych.ttf') format('truetype');
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Lucidity Psych', Arial, sans-serif;
     background-color: #fff;
     color: #000;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 header {
-    text-align: center;
-    margin: 20px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
 }
 
-nav a {
-    margin: 0 10px;
-    color: #000;
-    text-decoration: none;
-}
-
-main {
-    text-align: center;
-}
-
-.photo {
-    margin-top: 20px;
-}
-
-.photo img {
-    max-width: 100%;
+.logo {
+    width: 50px;
     height: auto;
 }
 
-figcaption {
-    margin-top: 10px;
-    font-size: 0.9em;
-    color: #555;
+h1 {
+    margin: 10px 0;
+    font-size: 2em;
+    font-family: 'Lucidity Psych', cursive, sans-serif;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.audio-player, .live, .photos {
+    margin: 20px 0;
+}
+
+audio {
+    width: 100%;
+    max-width: 600px;
+}
+
+.live-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.live-player img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.volume-control {
+    display: flex;
+    align-items: center;
+}
+
+.volume-control span {
+    margin-right: 10px;
+}
+
+input[type="range"] {
+    width: 100px;
+}
+
+.photos img {
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
 }
