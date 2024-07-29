@@ -33,7 +33,7 @@ h1 {
     margin: 10px 0;
     font-family: 'Lucidity Psych', Arial, sans-serif; /* Ensure title uses Lucidity Psych */
     text-transform: uppercase;
-    letter-spacing: 0.1em; /* Add letter spacing */
+    letter-spacing: 0.3em; /* Increase letter spacing */
 }
 
 nav a {
@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left; /* Left-align the text */
     margin: 0 auto;
     width: 100%;
 }
@@ -71,6 +71,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    text-align: left; /* Left-align the text in the content */
 }
 
 .content img {
