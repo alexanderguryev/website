@@ -1,7 +1,7 @@
 /* Import the custom font */
 @font-face {
-    font-family: 'Nagbuloe Shadow Bold Italic';
-    src: url('assets/Nagbuloe Shadow Bold Italic.ttf') format('truetype');
+    font-family: 'Nagbuloe Outline Bold Italic';
+    src: url('assets/Nagbuloe Outline Bold Italic.ttf') format('truetype');
 }
 
 body {
@@ -29,18 +29,30 @@ header {
     margin: 20px 0;
 }
 
-.logo {
-    width: 100px;
-    height: auto;
+/* Flexbox container for the title and logo */
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally within the header */
+    gap: 10px; /* Space between the title and the logo */
 }
 
 h1 {
     font-size: 3em;
     margin: 10px 0;
-    font-family: 'Nagbuloe Shadow Bold Italic'; 
-    text-transform: none;
-    letter-spacing: 0.1em;
-    text-align: center;
+    font-family: 'Nagbuloe Outline Bold Italic'; 
+    text-transform: none; /* Keep the text as it is */
+    letter-spacing: 0.1em; /* Slight letter spacing */
+    text-align: left; /* Left-align text within the flex container */
+}
+
+.logo {
+    width: 50px; /* Adjust this size to your liking */
+    height: auto;
+}
+
+nav {
+    margin-top: 20px;
 }
 
 nav a {
