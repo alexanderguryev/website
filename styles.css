@@ -1,7 +1,7 @@
 /* Import the custom font */
 @font-face {
     font-family: 'Nagbuloe Outline Bold Italic';
-    src: url('assets/Nagbuloe Outline Bold Italic..ttf') format('truetype');
+    src: url('assets/Nagbuloe Outline Bold Italic.ttf') format('truetype');
 }
 
 body {
