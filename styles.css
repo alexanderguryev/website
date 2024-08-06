@@ -1,7 +1,7 @@
 /* Import the custom font */
 @font-face {
-    font-family: 'Nagbuloe Outline Bold Italic';
-    src: url('assets/Nagbuloe Outline Bold Italic.ttf') format('truetype');
+    font-family: 'Nagbuloe Shadow Bold Italic';
+    src: url('assets/Nagbuloe Shadow Bold Italic.ttf') format('truetype');
 }
 
 body {
@@ -37,7 +37,7 @@ header {
 h1 {
     font-size: 3em;
     margin: 10px 0;
-    font-family: 'Nagbuloe Outline Bold Italic'; 
+    font-family: 'Nagbuloe Shadow Bold Italic'; 
     text-transform: none;
     letter-spacing: 0.1em;
     text-align: center;
