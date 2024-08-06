@@ -37,7 +37,7 @@ header {
 h1 {
     font-size: 3em;
     margin: 10px 0;
-    font-family: 'Nagbuloe Outline Bold Italic', Arial, sans-serif; 
+    font-family: 'Nagbuloe Outline Bold Italic'; 
     text-transform: uppercase;
     letter-spacing: 0.3em; /* Increase letter spacing */
     text-align: center;
