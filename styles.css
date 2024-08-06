@@ -39,7 +39,7 @@ h1 {
     margin: 10px 0;
     font-family: 'Nagbuloe Outline Bold Italic'; 
     text-transform: none;
-    letter-spacing: 0.3em; /* Increase letter spacing */
+    letter-spacing: 0.1em;
     text-align: center;
 }
 
